@@ -1,5 +1,5 @@
-
 @echo off
+mkdir C:\Windows\SoftwareDistribution
 cd C:\Windows\SoftwareDistribution
 echo start delete files that stuck...
 echo y|DEL /F/S/Q *.*
